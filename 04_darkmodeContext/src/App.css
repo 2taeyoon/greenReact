@@ -1,0 +1,12 @@
+:root{
+    --main-bg: DodgerBlue;
+    --dark-color: #13304e;
+}
+
+body { margin: 0; padding: 0; }
+body.active { background: #000; color: #fff; }
+body.active .header, body.active .footer { background: var(--dark-color); color: #fff; }
+
+.app { display: flex; flex-direction: column; justify-content: space-between; height: 100%; }
+
+.header, .footer { display: flex; justify-content: center; background: var(--main-bg); color: white; }

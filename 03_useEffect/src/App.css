@@ -1,0 +1,23 @@
+button {
+  padding: 10px;
+  background: lightpink;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: hotpink;
+}
+
+ul {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+li img {
+  width: 400px;
+}/*# sourceMappingURL=App.css.map */

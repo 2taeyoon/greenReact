@@ -1,0 +1,79 @@
+.Button {
+  background: #76abff;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem;
+  cursor: pointer;
+}
+.Button.large {
+  padding: 1.4rem 4rem;
+  font-size: 1.4rem;
+}
+.Button.medium {
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+}
+.Button.small {
+  padding: 0.4rem 1rem;
+  font-size: 0.7rem;
+}
+.Button.blue {
+  background: #76abff;
+}
+.Button.blue:hover {
+  background: #a9caff;
+}
+.Button.blue:active {
+  background: #106cff;
+}
+.Button.blue.outline {
+  background: transparent;
+  color: #76abff;
+  border: 1px solid #76abff;
+}
+.Button.blue.outline:hover {
+  background: #76abff;
+  color: #fff;
+}
+.Button.pink {
+  background: #e476ff;
+}
+.Button.pink:hover {
+  background: #eea9ff;
+}
+.Button.pink:active {
+  background: #d010ff;
+}
+.Button.pink.outline {
+  background: transparent;
+  color: #e476ff;
+  border: 1px solid #e476ff;
+}
+.Button.pink.outline:hover {
+  background: #e476ff;
+  color: #fff;
+}
+.Button.lime {
+  background: #8dff76;
+}
+.Button.lime:hover {
+  background: #b7ffa9;
+}
+.Button.lime:active {
+  background: #38ff10;
+}
+.Button.lime.outline {
+  background: transparent;
+  color: #8dff76;
+  border: 1px solid #8dff76;
+}
+.Button.lime.outline:hover {
+  background: #8dff76;
+  color: #fff;
+}
+.Button.fullWidth {
+  width: 100%;
+  margin: 1rem 0;
+}/*# sourceMappingURL=Button.css.map */

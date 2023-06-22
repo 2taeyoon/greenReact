@@ -1,0 +1,24 @@
+button {
+    padding: 10px;
+    background: lightpink;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background: hotpink;
+    }
+}
+
+ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+li {
+    list-style: none;
+
+    img {
+        width: 400px
+    }
+}

@@ -1,0 +1,27 @@
+.App { max-width:500px; margin:30px auto; padding:0 10px; }
+
+@mixin box($width:100%, $height:40px){
+    width:$width;
+    height:$height;
+    border: 1px solid lightskyblue;  
+}
+
+.input-style {
+    @include box(80%);
+}
+
+.btn-style {
+    @include box(15%,45px);
+    background:#b8e2fc;
+    transition:0.3s;
+
+    &:hover {
+        background:darken(#b8e2fc,20%)
+    }
+}
+.item {
+    @include box;
+    display: flex;
+    align-items:center;
+    padding-left:10px;
+}

@@ -1,0 +1,37 @@
+$blue: #76abff;
+$pink: #e476ff;
+$lime: #8dff76;
+
+
+@mixin btnColor($color){
+    background: $color;
+    
+    &:hover { background: lighten($color, 10%); }
+    &:active { background:darken($color, 20%); }
+    &.outline { background: transparent; color: $color; border: 1px solid $color;
+        &:hover { background: $color; color: #fff; }
+    }
+}
+
+.Button {
+    background: $blue; color: #fff; outline: none; border: none; border-radius: 5px; margin: 1rem; cursor: pointer;
+
+    //사이즈 관리
+    &.large { padding: 1.4rem 4rem; font-size: 1.4rem; }
+    &.medium { padding: 0.7rem 2rem; font-size: 1rem; }
+    &.small { padding: 0.4rem 1rem; font-size: 0.7rem; }
+
+    &.blue {
+        @include btnColor($blue)
+    }
+
+    &.pink {
+        @include btnColor($pink)
+    }
+
+    &.lime {
+        @include btnColor($lime)
+    }
+
+    &.fullWidth { width: 100%; margin: 1rem 0; }
+}

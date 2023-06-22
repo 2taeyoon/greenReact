@@ -1,0 +1,12 @@
+.checkbox input {
+  display: none;
+}
+
+.checked {
+  color: skyblue;
+}
+
+:global .text {
+  font-weight: bold;
+  color: rgb(118, 87, 255);
+}/*# sourceMappingURL=Checkbox.module.css.map */

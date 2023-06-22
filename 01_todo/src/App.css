@@ -1,0 +1,31 @@
+.App {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 0 10px;
+}
+
+.input-style {
+  width: 80%;
+  height: 40px;
+  border: 1px solid lightskyblue;
+}
+
+.btn-style {
+  width: 15%;
+  height: 45px;
+  border: 1px solid lightskyblue;
+  background: #b8e2fc;
+  transition: 0.3s;
+}
+.btn-style:hover {
+  background: #56baf8;
+}
+
+.item {
+  width: 100%;
+  height: 40px;
+  border: 1px solid lightskyblue;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}/*# sourceMappingURL=App.css.map */

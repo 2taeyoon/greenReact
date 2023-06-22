@@ -1,0 +1,68 @@
+$bgColor:#1d1738;
+$textColor:#fffb0a;
+
+@mixin box($width: 100%, $height: auto) {
+    width: $width;
+    height: $height;
+    border-radius: 12px;
+    background: $bgColor;
+    text-align: center;
+    color: #fff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+ul,li {list-style: none;}
+
+body { background: $bgColor; }
+
+section { @include box(); background: white; max-width: 40rem; margin: 1rem auto; padding:2rem; color: $bgColor; }
+section p { color: $bgColor; }
+
+button { @include box(150px, 40px); border:none; cursor: pointer;
+    &:hover,&:active { background: lighten($bgColor, 10%); }
+}
+
+.movie { @include box(); padding:2rem;
+h2 {
+        font-size: 2rem;
+        color: $textColor;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        color: $textColor;
+        margin-bottom: 0.5rem;
+        font-weight: normal;
+    }
+
+    p {
+        color: #ccc;
+    }
+
+    &+& {
+        margin-top: 1rem;
+    }
+}
+
+.control {
+    margin: 1rem 0;
+
+    label {
+        display: block;
+        color: black;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    input,
+    textarea {
+        display: block;
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+        outline: none;
+    }
+}

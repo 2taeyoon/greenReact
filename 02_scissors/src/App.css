@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.box img {
+  width: 80%;
+}
+
+button {
+  background: #ffe3b3;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 4px;
+  border: 1px solid #dbb97d;
+  cursor: pointer;
+}
+button:hover {
+  background: #dbb97d;
+  color: #fff;
+}
+
+.tie {
+  border: 5px solid gray;
+  color: gray;
+}
+
+.lose {
+  border: 5px solid black;
+  color: black;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.win {
+  border: 5px solid red;
+  color: red;
+}
+
+.resultP {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}/*# sourceMappingURL=App.css.map */
