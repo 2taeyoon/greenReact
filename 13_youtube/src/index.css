@@ -5,18 +5,20 @@
 
 
 body {
-    margin: 0;
-    font-family: "Roboto", "Arial", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    width: 100%;
-    height: 100vh;
+  margin: 0;
+  font-family: "Roboto","Arial",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width:100%;
+  height:100vh;
 
-    /* 일반 css에서 tailwind 사용시 */
-    @apply flex flex-col items-center;
-    @apply bg-zinc-900 text-neutral-50
+  /* 일반 css에서 tailwind 사용시 */
+  @apply flex flex-col  items-center;
+  @apply bg-zinc-900 text-neutral-50
 }
 
 #root {
-    @apply w-full;
+  @apply w-full;  
 }
+
+
