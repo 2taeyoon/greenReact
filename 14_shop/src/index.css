@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-family: 'SUITE Variable', 'Arial', 'Helvetica', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+    color: #333;
+    background: rgb(253,253,253);
+}
+
+#root {
+    @apply w-full;
+}
